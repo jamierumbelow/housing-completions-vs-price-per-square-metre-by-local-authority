@@ -5,7 +5,11 @@ description = "Add your description here"
 authors = [
     { name = "Jamie Rumbelow", email = "jamie@jamierumbelow.net" }
 ]
-dependencies = []
+dependencies = [
+    "pandas>=2.2.2",
+    "matplotlib>=3.9.1",
+    "seaborn>=0.13.2",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
